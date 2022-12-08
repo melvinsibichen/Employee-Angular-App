@@ -1,0 +1,47 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3 mt-4">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                    <h1>Add Employee</h1>
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="fomr-label">Employee Code</label>
+                    <input type="text" class="form-control" name="empcode" [(ngModel)]="empcode">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="fomr-label">Employee Name</label>
+                    <input type="text" class="form-control" name="empname" [(ngModel)]="empname">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="fomr-label">Designation</label>
+                    <input type="text" class="form-control" name="designation" [(ngModel)]="designation">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="fomr-label">Salary</label>
+                    <input type="text" class="form-control" name="salary" [(ngModel)]="salary">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="fomr-label">Company Name</label>
+                    <input type="text" class="form-control" name="companyname" [(ngModel)]="companyname">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="fomr-label">Mobile</label>
+                    <input type="text" class="form-control" name="mobile" [(ngModel)]="mobile">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="fomr-label">Username</label>
+                    <input type="text" class="form-control" name="username" [(ngModel)]="username">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="fomr-label">Password</label>
+                    <input type="password" class="form-control" name="password" [(ngModel)]="password">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <button class="btn btn-primary" (click)="readValues()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
